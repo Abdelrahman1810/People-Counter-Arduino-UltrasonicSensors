@@ -12,7 +12,7 @@ You will need the following materials to build the people counting system:
 
 - Arduino board (e.g., Arduino Uno)
 - One HC-SR04 ultrasonic sensor
-- 16x2 LCD display (compatible with the Hitachi HD44780 driver)
+- I2C LCD display
 - Breadboard
 - Jumper wires
 - USB cable (for connecting the Arduino board to your computer) "COM"
@@ -32,6 +32,8 @@ You will need the following materials to build the people counting system:
 2. Connect the SCL pin of the LCD display to the A5 pin of the Arduino board.
 3. Connect the VCC pin of the LCD display to the 5V pin of the Arduino board.
 4. Connect the GND pin of the LCD display to the GND pin of the Arduino board.
+> [!NOTE]
+> you can [read_more](https://lastminuteengineers.com/i2c-lcd-arduino-tutorial/) about I2C LCD
 
 ### Installing the LiquidCrystal_I2C Library
 
